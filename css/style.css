@@ -17,3 +17,42 @@ a {
     width: 30px;
     margin: 15px;
 }
+
+.header{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+}
+
+#rotate90{
+    transform: rotate(90deg);
+}
+
+#rotate{
+    transform: rotate(270deg);
+}
+
+.gallery{
+    display: flex;
+}
+
+.thumbnail{
+    display: flex;
+    justify-content: space-around;
+}
+
+.thumbnail-image{
+    border-radius: 50%;
+    height: 500px;
+    width: 500px;
+}
